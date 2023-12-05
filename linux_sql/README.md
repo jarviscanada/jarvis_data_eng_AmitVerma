@@ -1,2 +1,9 @@
 # Linux Cluster Monitoring Agent
-This project is under development. Since this project follows the GitFlow, the final work will be merged to the main branch after Team Code Team.
+
+# Introduction
+The linux cluster monitoring agent uses bash scripts to collect host information and usage metrics and stores them in a PostgreSQL database running in a docker container. The app inserts updated informaiton every minute using a contrab job.
+
+Technologies used: Bash, Git, Docker, PostgreSQL
+
+# Quick Start
+
