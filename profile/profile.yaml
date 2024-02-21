@@ -9,7 +9,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AmitVerma.
 # 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
 # 3) mention what kind of role you are looking for
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your
-summary: Hi! I'm Amit Verma, a results-driven Software Engineer based in Toronto, Canada. With a Bachelor's degree in Software Engineering from the University of Western Ontario, I bring a solid academic foundation and hands-on experience in front-end technologies like JavaScript, TypeScript, React, and back-end technologies such as Node.js, .NET Core, and PostgreSQL. As a Software Developer at Geotab Inc, I enhanced operating efficiency and user engagement by implementing full-stack solutions and spearheading the design of 50+ features. In pursuit of a Software Developer role, I am eager to contribute my technical skills, collaborative mindset, and innovative problem-solving abilities. I am confident that my blend of technical acumen and dedication makes me an ideal candidate for driving success in software development endeavors.
+summary: Hi! I'm Amit Verma, a results-driven Software Engineer based in Toronto, Canada. With a Bachelor's degree in Software Engineering from the University of Western Ontario, I bring a solid academic foundation and hands-on experience in front-end technologies like JavaScript, TypeScript, React, and back-end technologies such as Node.js, .NET Core, and PostgreSQL. I started my software journey by hacking together python scripts to make my summer job as an assistant easier. As a Software Developer at Geotab Inc, I enhanced operating efficiency and user engagement by implementing full-stack solutions and spearheading the design of 50+ features. In pursuit of a Software Developer role, I am eager to contribute my technical skills, collaborative mindset, and innovative problem-solving abilities. I am confident that my blend of technical acumen and dedication makes me an ideal candidate for driving success in software development endeavors.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -23,17 +23,19 @@ skills:
     - RDBMS/SQL
     - NoSQL
     - Agile/Scrum
+    - REST APIs
     - Git
+    - Python
   # At least 5 skills
   competent:
-    - Python
     - Java
+    - Selenium
     - .NET/C#
     - Linux/Bash
     - Angular
+    - AWS and Cloud
   # At least 5 skills
   familiar:
-    - AWS
     - Unity
     - Jira
     - Webpack
@@ -45,7 +47,12 @@ jarvis_projects:
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_AmitVerma/tree/master/linux_sql"
     # Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
     # Please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data analytics
-    description: Developed Bash scripts on CentOS to pull system information and usage and save to a PostgreSQL database running in a docker container. Utilized crontab to create an automated process and git for version control.
+    description: Developed a bash script application on CentOS to pull system information and usage and save to a PostgreSQL database running in a docker container. Utilized crontab to deploy the app by creating an automated process and git for version control.
+  - name: "Java Grep App"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_AmitVerma/tree/master/core_java/grep"
+    # Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
+    # Please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data analytics
+    description: Developed an application that mimics the functionality of the grep command line function in Linux. This app collects lines that match a specified regex recursively in a provided directory and reports them in an output file. Implemented using Java 8, Docker, streams/lambdas, regex, and SLF4j.
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -93,6 +100,6 @@ others:
       - "AWS Certified Cloud Practitioner (2023)"
   - title: "Activities/Hobbies"
     bullets:
-      - "Sports"
-      - "Gaming"
-      - "Hiking/Nature"
+      - "Sports, especially basketball but I enjoy playing any sport"
+      - "Gaming, mainly story rich games but I like the occasional rocket league with friends"
+      - "Hiking/Nature, mainly with my dog so we can enjoy the outdoors together"
